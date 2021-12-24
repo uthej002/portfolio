@@ -1,0 +1,520 @@
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
+        
+
+    </head>
+    <body>
+        <div class="wrapper">
+                    <!-- Nav tabs -->
+            <ul class="nav nav-tabs justify-content-center fixed-top">
+                <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#professionalInfo">Professional Info</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#educationalInfo">Educational Info</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#contact">About & Contact</a>
+                </li>
+            </ul>
+            
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane container active" id="home">
+                    <div class="row h-100" id="home">
+                        <div class="col-lg-4 col-img my-auto">
+                            <img class="img-fluid rounded-circle" src="https://cdn.fastly.picmonkey.com/contentful/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=800&q=70">
+                        </div>
+                        <div class="col-lg-8 text-center col-text my-auto">
+                            <h1>Madhav Kondapalli</h1>
+                            <hr class="hr-name">
+                            <h2 class="font-weight-normal">
+                            Learn, Freeze & Work
+                            </h2>
+                            <hr class="hr-quote">
+                            <h4 class="font-weight-light">
+                            MEAN Stack Developer
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane container fade" id="professionalInfo">
+                    <!-- Nav pills -->
+                    <ul class="nav nav-pills justify-content-left" style="margin:100px 10px 0px 10px;">
+                        <li class="nav-item">
+                        <a class="nav-link active" data-toggle="pill" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#workExperience">Work Experience</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#awards">Awards</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#resume">Resume</a>
+                        </li>
+                    </ul>
+                    
+                    <!-- Tab panes -->
+                    <div class="tab-content" style="margin:50px 10px 0px 0px;">
+                        <div class="tab-pane container active" id="skills">
+                            <div class="container">
+                                  <div class="skills-cards">
+                                    <div class="card-columns">
+                                        <div class="card">
+                                            <div class="card-body" id="mydiv">
+                                                
+                                            </div>
+                                          </div>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane container fade" id="workExperience">
+                            <h3 style="margin: 20px 0px 20px 0px;">Capgemini</h3>
+                            <hr/>
+                            <table class="table-custom">
+                                <tr>
+                                    <td>Duration</td>
+                                    <td>:</td>
+                                    <td>June 2017 - Present</td>
+                                </tr>
+                                <tr>
+                                    <td>Role</td>
+                                    <td>:</td>
+                                    <td>Associate Consultant</td>
+                                </tr>
+                                <tr>
+                                    <td>Client</td>
+                                    <td>:</td>
+                                    <td>Royal Bank of Canada (RBC)</td>
+                                </tr>
+                            </table>
+
+                            <h3 style="margin: 20px 0px 20px 0px;">Projects</h3>
+                            <hr/>
+                            <button class="btn btn-outline-primary show-project" style="margin: 10px;" id="project1">Project 1</button>
+                            <button class="btn btn-outline-primary show-project" style="margin: 10px;" id="project2">Project 2</button>
+                            <button class="btn btn-outline-primary show-project" style="margin: 10px;" id="project3">Project 3</button>
+                            <button class="btn btn-outline-primary show-project" style="margin: 10px;" id="project4">Project 4</button>
+
+                            <h3 style="margin: 50px 0px 20px 0px;">Initiatives</h3>
+                            <hr/>
+                            <button class="btn btn-outline-primary show-project" style="margin: 10px;" id="task1">Task 1</button>
+                            <button class="btn btn-outline-primary show-project" style="margin: 10px;" id="task2">Task 2</button>
+                            <button class="btn btn-outline-primary show-project" style="margin: 10px;" id="task3">Task 3</button>
+                            <button class="btn btn-outline-primary show-project" style="margin: 10px;" id="task4">Task 4</button>
+                            <button class="btn btn-outline-primary show-project" style="margin: 10px;" id="task5">Task 5</button>
+                            <button class="btn btn-outline-primary show-project" style="margin: 10px;" id="task6">Task 6</button>
+                        </div>
+                        <div class="tab-pane container fade" id="awards">
+                            <h3 style="margin: 50px 0px 20px 0px;">Capgemini</h3>
+                            <ul>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                                      </svg> Awarded best rating during annual appraisal for the year 2018-19 and 2019-2020 with promotion.</li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                                      </svg> Rising Star for Quarter 2 of 2019.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane container fade" id="resume">resume download option here</div>
+                    </div>
+                </div>
+                <div class="tab-pane container fade mx-auto" id="educationalInfo">
+                    <div id="accordion" style="margin:150px 10px 0px 0px;">
+                        <div class="card text-center">
+                        <div class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#collapseOne">UG (B.Sc Electronics)</a>
+                        </div>
+                        <div id="collapseOne" class="collapse show table-responsive" data-parent="#accordion">
+                            <div class="card-body">
+                                <table class="table-custom mx-auto w-auto">
+                                    <tr>
+                                        <th>College Name</th>
+                                        <td>:</td>
+                                        <td>SV College Of Engineering, Tirupathi.</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Stream</th>
+                                        <td>:</td>
+                                        <td>Electrical And Electronics Engineering</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Duration</th>
+                                        <td>:</td>
+                                        <td>2014-2018</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Percentage</th>
+                                        <td>:</td>
+                                        <td>90%</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        </div>
+                    
+                        <div class="card text-center">
+                        <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                            Inermediate
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                            <div class="card-body table-responsive">
+                                <table class="table-custom mx-auto w-auto">
+                                    <tr>
+                                        <th>College Name</th>
+                                        <td>:</td>
+                                        <td>Sri Chaitanya Junior Kalasala, Tirupathi.</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Stream</th>
+                                        <td>:</td>
+                                        <td>MPC</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Duration</th>
+                                        <td>:</td>
+                                        <td>2014-2018</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Percentage</th>
+                                        <td>:</td>
+                                        <td>94%</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        </div>
+                    
+                        <div class="card text-center">
+                        <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                            SSC
+                            </a>
+                        </div>
+                        <div id="collapseThree" class="collapse" data-parent="#accordion">
+                            <div class="card-body table-responsive">
+                                <table class="table-custom mx-auto w-auto">
+                                    <tr>
+                                        <th>School Name</th>
+                                        <td>:</td>
+                                        <td>Siddhartha Residential School, Chandragiri.</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Year Passed</th>
+                                        <td>:</td>
+                                        <td>2012</td>
+                                    </tr>
+                                    <tr>
+                                        <th>GPA</th>
+                                        <td>:</td>
+                                        <td>9.8</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Board Name</th>
+                                        <td>:</td>
+                                        <td>Board of Secondary School Education, Andhra Pradesh.</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="tab-pane container fade text-center table-responsive" id="contact">
+                    <h3 style="margin: 100px 0px 20px 0px;">About</h3>
+                    <table class="table-custom table mx-auto w-auto">
+                        <tr>
+                            <th>Date of Birth</th>
+                            <td> : </td>
+                            <td>15-Sep-1996.</td>
+                        </tr>
+                        <tr>
+                            <th>Born & Brought up</th>
+                            <td>:</td>
+                            <td>Chandragiri, Near Tirupathi,
+                                Andhra Pradesh (State), India.</td>
+                        </tr>
+                        <tr>
+                            <th>Languages Known</th>
+                            <td>:</td>
+                            <td>English & Telugu.</td>
+                        </tr>
+                        <tr>
+                            <th>Hobbies</th>
+                            <td>:</td>
+                            <td>Playing Cricket.</td>
+                        </tr>
+                    </table>
+                    <h3 style="margin: 50px 0px 20px 0px;">Contact</h3>
+                    <table class="table-custom table mx-auto w-auto">
+                        <tr>
+                            <th>Email-ID</th>
+                            <td>:</td>
+                            <td><a href="mailto:uthej002@gmail.com">Click here to email</a></td>
+                        </tr>
+                        <tr>
+                            <th>Mobile Number</th>
+                            <td>:</td>
+                            <td>+91-863-919-3467.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="card text-center lightbox mx-auto project1 shadow-lg p-3 mb-5 bg-white rounded">
+            <p class="close-project"><b>x</b></p>
+            <div class="card-body">
+              <h4 class="card-title">Project 1</h4>
+              <p class="card-text">
+                  <table class="table">
+                      <tr>
+                        <th>Technology</th>
+                        <td>Automating a system having Web and Desktop Applications</td>
+                      </tr>
+                      <tr>
+                        <th>Role</th>
+                        <td>Automation Engineer and Lead</td>
+                      </tr>
+                      <tr>
+                        <th>Automation Tools</th>
+                        <td>Java with Selenium, Java With LeanFT, Core Java, UFT with VB Script</td>
+                      </tr>               
+                      <tr>
+                        <th>What I did</th>
+                        <td>DCP is a project where the cheques that we have got to the bank needs to be taken care and complete the proceedings. In order to complete a transaction it will take 3 days. A total of 5000+ test cases are planned and developed them in 3 phases in a span of 1 year. Designed and developed the project by leading a team of 7 by connecting with client on regular basis.</td>
+                      </tr>       
+                  </table>
+              </p>
+            </div>
+          </div>
+          <div class="card text-center lightbox mx-auto project2 shadow-lg p-3 mb-5 bg-white rounded">
+            <p class="close-project"><b>x</b></p>
+            <div class="card-body">
+              <h4 class="card-title">Project 2</h4>
+              <p class="card-text">
+                  <table class="table">
+                      <tr>
+                        <th>Technology</th>
+                        <td>Automating a system having Web and Desktop Applications</td>
+                      </tr>
+                      <tr>
+                        <th>Role</th>
+                        <td>Automation Engineer and Lead</td>
+                      </tr>
+                      <tr>
+                        <th>Automation Tools</th>
+                        <td>Java with Selenium, Java With LeanFT, Core Java, UFT with VB Script</td>
+                      </tr>               
+                      <tr>
+                        <th>What I did</th>
+                        <td>DCP is a project where the cheques that we have got to the bank needs to be taken care and complete the proceedings. In order to complete a transaction it will take 3 days. A total of 5000+ test cases are planned and developed them in 3 phases in a span of 1 year. Designed and developed the project by leading a team of 7 by connecting with client on regular basis.</td>
+                      </tr>       
+                  </table>
+              </p>
+            </div>
+          </div>
+          <div class="card text-center lightbox mx-auto project3 shadow-lg p-3 mb-5 bg-white rounded">
+            <p class="close-project"><b>x</b></p>
+            <div class="card-body">
+              <h4 class="card-title">Project 3</h4>
+              <p class="card-text">
+                  <table class="table">
+                      <tr>
+                        <th>Technology</th>
+                        <td>Automating a system having Web and Desktop Applications</td>
+                      </tr>
+                      <tr>
+                        <th>Role</th>
+                        <td>Automation Engineer and Lead</td>
+                      </tr>
+                      <tr>
+                        <th>Automation Tools</th>
+                        <td>Java with Selenium, Java With LeanFT, Core Java, UFT with VB Script</td>
+                      </tr>               
+                      <tr>
+                        <th>What I did</th>
+                        <td>DCP is a project where the cheques that we have got to the bank needs to be taken care and complete the proceedings. In order to complete a transaction it will take 3 days. A total of 5000+ test cases are planned and developed them in 3 phases in a span of 1 year. Designed and developed the project by leading a team of 7 by connecting with client on regular basis.</td>
+                      </tr>       
+                  </table>
+              </p>
+            </div>
+          </div>
+          <div class="card text-center lightbox mx-auto project4 shadow-lg p-3 mb-5 bg-white rounded">
+            <p class="close-project"><b>x</b></p>
+            <div class="card-body">
+              <h4 class="card-title">Project 4</h4>
+              <p class="card-text">
+                  <table class="table">
+                      <tr>
+                        <th>Technology</th>
+                        <td>Automating a system having Web and Desktop Applications</td>
+                      </tr>
+                      <tr>
+                        <th>Role</th>
+                        <td>Automation Engineer and Lead</td>
+                      </tr>
+                      <tr>
+                        <th>Automation Tools</th>
+                        <td>Java with Selenium, Java With LeanFT, Core Java, UFT with VB Script</td>
+                      </tr>               
+                      <tr>
+                        <th>What I did</th>
+                        <td>DCP is a project where the cheques that we have got to the bank needs to be taken care and complete the proceedings. In order to complete a transaction it will take 3 days. A total of 5000+ test cases are planned and developed them in 3 phases in a span of 1 year. Designed and developed the project by leading a team of 7 by connecting with client on regular basis.</td>
+                      </tr>       
+                  </table>
+              </p>
+            </div>
+          </div>
+          <div class="card text-center lightbox mx-auto task1 shadow-lg p-3 mb-5 bg-white rounded">
+            <p class="close-project"><b>x</b></p>
+            <div class="card-body">
+              <h4 class="card-title">task 1</h4>
+              <p class="card-text">
+                  <table class="table">
+                      <tr>
+                        <th>Technology</th>
+                        <td>Automating a system having Web and Desktop Applications</td>
+                      </tr>
+                      <tr>
+                        <th>Role</th>
+                        <td>Automation Engineer and Lead</td>
+                      </tr>     
+                  </table>
+              </p>
+            </div>
+          </div>
+          <div class="card text-center lightbox mx-auto task2 shadow-lg p-3 mb-5 bg-white rounded">
+            <p class="close-project"><b>x</b></p>
+            <div class="card-body">
+              <h4 class="card-title">task 2</h4>
+              <p class="card-text">
+                  <table class="table">
+                      <tr>
+                        <th>Technology</th>
+                        <td>Automating a system having Web and Desktop Applications</td>
+                      </tr>
+                      <tr>
+                        <th>Role</th>
+                        <td>Automation Engineer and Lead</td>
+                      </tr>     
+                  </table>
+              </p>
+            </div>
+          </div>
+          <div class="card text-center lightbox mx-auto task3 shadow-lg p-3 mb-5 bg-white rounded">
+            <p class="close-project"><b>x</b></p>
+            <div class="card-body">
+              <h4 class="card-title">task 3</h4>
+              <p class="card-text">
+                  <table class="table">
+                      <tr>
+                        <th>Technology</th>
+                        <td>Automating a system having Web and Desktop Applications</td>
+                      </tr>
+                      <tr>
+                        <th>Role</th>
+                        <td>Automation Engineer and Lead</td>
+                      </tr>     
+                  </table>
+              </p>
+            </div>
+          </div>
+          <div class="card text-center lightbox mx-auto task4 shadow-lg p-3 mb-5 bg-white rounded">
+            <p class="close-project"><b>x</b></p>
+            <div class="card-body">
+              <h4 class="card-title">task 4</h4>
+              <p class="card-text">
+                  <table class="table">
+                      <tr>
+                        <th>Technology</th>
+                        <td>Automating a system having Web and Desktop Applications</td>
+                      </tr>
+                      <tr>
+                        <th>Role</th>
+                        <td>Automation Engineer and Lead</td>
+                      </tr>     
+                  </table>
+              </p>
+            </div>
+          </div>
+          <div class="card text-center lightbox mx-auto task5 shadow-lg p-3 mb-5 bg-white rounded">
+            <p class="close-project"><b>x</b></p>
+            <div class="card-body">
+              <h4 class="card-title">task 5</h4>
+              <p class="card-text">
+                  <table class="table">
+                      <tr>
+                        <th>Technology</th>
+                        <td>Automating a system having Web and Desktop Applications</td>
+                      </tr>
+                      <tr>
+                        <th>Role</th>
+                        <td>Automation Engineer and Lead</td>
+                      </tr>     
+                  </table>
+              </p>
+            </div>
+          </div>
+          <div class="card text-center lightbox mx-auto task6 shadow-lg p-3 mb-5 bg-white rounded">
+            <p class="close-project"><b>x</b></p>
+            <div class="card-body">
+              <h4 class="card-title">task 6</h4>
+              <p class="card-text">
+                  <table class="table">
+                      <tr>
+                        <th>Technology</th>
+                        <td>Automating a system having Web and Desktop Applications</td>
+                      </tr>
+                      <tr>
+                        <th>Role</th>
+                        <td>Automation Engineer and Lead</td>
+                      </tr>     
+                  </table>
+              </p>
+            </div>
+          </div>
+    </body>
+    <script>
+        $(document).ready(function(){
+            $(".show-project").click(function(){
+                let projectName = this.id;
+                $("."+projectName).fadeIn("slow");
+                $(".wrapper").animate({ opacity: '0.4'});
+            });
+        });
+
+        $(document).ready(function(){
+            $(".close-project").click(function(){
+                $(".lightbox").hide();
+                $(".wrapper").animate({ opacity: '1'});
+            });
+        });
+    </script>
+</html>
